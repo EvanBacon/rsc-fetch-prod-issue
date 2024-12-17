@@ -10,14 +10,6 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "entitlements": {
-        "com.apple.security.application-groups": [
-          "group.app.bacon.appreviewtimes"
-        ]
-      },
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      },
       "bundleIdentifier": "app.bacon.appreviewtimes"
     },
     "android": {
@@ -49,7 +41,6 @@
       "expo-sqlite"
     ],
     "experiments": {
-      "typedRoutes": true,
       "reactServerFunctions": true
     }
   }
